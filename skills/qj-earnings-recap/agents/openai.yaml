@@ -1,0 +1,4 @@
+interface:
+  display_name: "qj-earnings-recap"
+  short_description: "QJ MCP-backed investment research skill."
+  default_prompt: "Use this QJ skill with qj_data_mcp and qj_api_mcp to produce an evidence-backed investment research output."
