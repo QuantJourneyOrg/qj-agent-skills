@@ -14,11 +14,12 @@ Use `data.*` tools as the primary source. Use `api.domains.call` only for missin
 - Return windows: `data.prices.returns`
 - History: `data.prices.history`
 - Batch prices: `data.prices.batch`
-- Benchmarks: `data.benchmarks.indices`, `data.benchmarks.quotes`, `data.benchmarks.compare`
+- Benchmarks: `data.benchmarks.indices`, `data.benchmarks.quotes`, `data.benchmarks.compare`, `data.benchmarks.treasury_rates`
+- Commodities: `data.commodities.latest`, `data.commodities.prices`, `data.commodities.inventories`
 
 ## Fundamentals and Metrics
 
-- Statements: `data.fundamentals.statements`, `data.fundamentals.latest`, `data.fundamentals.pit`
+- Statements: `data.fundamentals.statements`, `data.fundamentals.latest`, `data.fundamentals.batch`, `data.fundamentals.pit`
 - Fields: `data.fundamentals.fields`, `data.fundamentals.field_series`
 - Metrics: `data.metrics.snapshot`, `data.metrics.history`, `data.metrics.trends`, `data.metrics.technicals`
 - Screening: `data.metrics.screen`, `data.metrics.rank`, `data.metrics.universe`
@@ -33,7 +34,7 @@ Use `data.*` tools as the primary source. Use `api.domains.call` only for missin
 
 ## Events and Catalysts
 
-- Dividends and splits: `data.events.ticker_dividends`, `data.events.ticker_splits`
+- Dividends and splits: `data.events.ticker_dividends`, `data.events.ticker_splits`, `data.events.dividend_calendar`
 - Macro events: `data.events.macro_calendar`
 - Unified calendar: `data.events.calendar_all`
 - Portfolio event exposure: `data.events.exposure_summary`, `data.events.risk_summary`
@@ -51,7 +52,7 @@ Use `data.*` tools as the primary source. Use `api.domains.call` only for missin
 ## Portfolio and Risk
 
 - PM brief: `data.intelligence.pm_brief`
-- Portfolio: `data.portfolio.tree`, `data.portfolio.dashboard`, `data.portfolio.holdings`, `data.portfolio.positions`, `data.portfolio.nav`, `data.portfolio.pnl`, `data.portfolio.attribution`
+- Portfolio: `data.portfolio.tree`, `data.portfolio.dashboard`, `data.portfolio.holdings`, `data.portfolio.holdings_by_ticker`, `data.portfolio.positions`, `data.portfolio.nav`, `data.portfolio.pnl`, `data.portfolio.attribution`
 - Risk: `data.risk.info`, `data.risk.scenario_list`, `data.risk.scenario_run`, `data.risk.hedge_suggestions`, `data.risk.factor_exposure`
 
 ## Fallback Raw API
